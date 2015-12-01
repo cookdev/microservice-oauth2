@@ -1,0 +1,16 @@
+zuul:
+  routes:
+    ui:
+      url: http://localhost:8081
+    resource:
+      url: http://localhost:9000
+security:
+  user:
+    password:
+      password
+  sessions: ALWAYS
+spring:
+  redis:
+    password: qnftkwh3
+    host: 58.124.63.35
+    port: 6379
